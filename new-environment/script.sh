@@ -1,13 +1,13 @@
 #!/bin/bash
 
 # File containing the list of files to copy (one file per line)
-file_list="file_list.txt"
+file_list="files.txt"
 
 # Source directory where the files are located
-src_dir="/path/to/source/directory"
+src_dir="/Users/prashant/workspace/azure-repos/DIF-SO-data-governance/CH-SO-BIA-DATAHUB-PL-EU-Dev"
 
 # Destination directory where the files should be copied
-dest_dir="/path/to/destination/directory"
+dest_dir="/Users/prashant/workspace/azure-repos/DIF-SO-data-governance/CH-SO-BIA-DATAHUB-PL-EU-Dev"
 
 # Check if the file list exists
 if [[ ! -f $file_list ]]; then
@@ -31,8 +31,12 @@ fi
 while IFS= read -r file; do
     # Check if the file exists in the source directory
     if [[ -f "$src_dir/$file" ]]; then
-        cp "$src_dir/$file" "$dest_dir/"
-        echo "Copied $file to $dest_dir"
+        # Modify the destination file name by replacing _US_ with _DK_
+        new_file=$(echo "$file" | sed 's/_US/_DK/g')
+
+        # Copy the file to the destination directory with the new name
+        cp "$src_dir/$file" "$dest_dir/$new_file"
+        echo "Copied $file to $dest_dir as $new_file"
     else
         echo "File $file not found in $src_dir"
     fi
