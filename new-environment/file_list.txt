@@ -1,0 +1,24 @@
+lineage_catalog/file-ingestor/Google/DIF_Google_US.json             lineage_catalog/file-ingestor/Google/DIF_Google_DK.json
+lineage_catalog/file-ingestor/Facebook/DIF_Facebook_US.json         lineage_catalog/file-ingestor/Facebook/DIF_Facebook_DK.json
+lineage_catalog/file-ingestor/Taboola/DIF_Taboola_US.json           lineage_catalog/file-ingestor/Taboola/DIF_Taboola_DK.json
+lineage_catalog/file-ingestor/Outbrain/DIF_Outbrain_US.json         lineage_catalog/file-ingestor/Outbrain/DIF_Outbrain_DK.json
+lineage_catalog/file-ingestor/PiwikPro/DIF_PiwikPro_US.json         lineage_catalog/file-ingestor/PiwikPro/DIF_PiwikPro_DK.json
+lineage_catalog/file-ingestor/Criteo/DIF_Criteo_DE.json             lineage_catalog/file-ingestor/Criteo/DIF_Criteo_DK.json
+lineage_catalog/file-ingestor/Zemanta/DIF_Zemanta_DE.json           lineage_catalog/file-ingestor/Zemanta/DIF_Zemanta_DK.json
+lineage_catalog/file-ingestor/Optimizely/DIF_Optimizely_CA.json     lineage_catalog/file-ingestor/Optimizely/DIF_Optimizely_DK.json
+lineage_catalog/file-ingestor/LandingPages/DIF_US_LandingPages.json lineage_catalog/file-ingestor/LandingPages/DIF_DK_LandingPages.json
+lineage_catalog/file-ingestor/CasterLeads/DIF_US_CasterLeads.json   lineage_catalog/file-ingestor/CasterLeads/DIF_DK_CasterLeads.json
+
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Google_US.json           lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Google_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Facebook_US.json         lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Facebook_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Taboola_US.json          lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Taboola_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Outbrain_US.json         lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Outbrain_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_PiwikPro_US.json         lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_PiwikPro_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Criteo_DE.json           lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Criteo_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Zemanta_DE.json          lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Zemanta_DK.json
+lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Optimizely_CA.json       lineage_catalog/file_ingestor/LinkGenerator/DIF_link_generator_Optimizely_DK.json
+
+lineage_catalog/raw/Facebook/DIF_facebook_ad_insights___act_CANADA.json                              lineage_catalog/raw/Facebook/DIF_facebook_ad_insights___act_317401920304030.json
+lineage_catalog/raw/PiwikPro/DIF_piwik_us_daily_events___449b5606_9454_42c8_a2f6_d5ee40018e51.json   lineage_catalog/raw/PiwikPro/DIF_piwik_dk_daily_events___66257fc2_8dc5_4053_9b90_ad5404f024f5.json
+lineage_catalog/raw/PiwikPro/DIF_piwik_us_daily_sessions___449b5606_9454_42c8_a2f6_d5ee40018e51.json lineage_catalog/raw/PiwikPro/DIF_piwik_dk_daily_sessions___66257fc2_8dc5_4053_9b90_ad5404f024f5.json
+lineage_catalog/raw/Optimizely/DIF_optimizely_ca_decisions.json                                      lineage_catalog/raw/Optimizely/DIF_optimizely_dk_decisions.json

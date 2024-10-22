@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # File containing the list of files to copy (one file per line)
-file_list="files.txt"
+file_list="file_list.txt"
 
 # Source directory where the files are located
 src_dir="/Users/prashant/workspace/azure-repos/DIF-SO-data-governance/CH-SO-BIA-DATAHUB-PL-EU-Dev"
@@ -28,17 +28,31 @@ if [[ ! -d $dest_dir ]]; then
 fi
 
 # Read each file from the list and copy it to the destination directory
-while IFS= read -r file; do
-    # Check if the file exists in the source directory
-    if [[ -f "$src_dir/$file" ]]; then
-        # Modify the destination file name by replacing _US_ with _DK_
-        new_file=$(echo "$file" | sed 's/_US/_DK/g')
+while IFS= read -r line; do
 
-        # Copy the file to the destination directory with the new name
-        cp "$src_dir/$file" "$dest_dir/$new_file"
-        echo "Copied $file to $dest_dir as $new_file"
+    # Trim leading/trailing whitespace and ignore empty lines or lines starting with '#'
+    line=$(echo "$line" | xargs)
+    if [[ -z "$line" || "$line" == \#* ]]; then
+        continue
+    fi
+
+    # Split the line into an array by treating multiple spaces as a single delimiter
+    read -a files <<< "$line"
+    
+    src_file="${files[0]}"
+    dest_file="${files[1]}"
+
+    # Check if the file exists in the source directory
+    if [[ -f "$src_dir/$src_file" ]]; then
+        if [[ -f "$dest_dir/$dest_file" ]]; then
+            echo "File already exists"
+        else
+            # Copy the file to the destination directory with the new name
+            cp "$src_dir/$src_file" "$dest_dir/$dest_file"
+            echo "Copied $src_file to $dest_dir as $dest_file"
+        fi
     else
-        echo "File $file not found in $src_dir"
+        echo "File $src_file not found in $src_dir"
     fi
 done < "$file_list"
 
