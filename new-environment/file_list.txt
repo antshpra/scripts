@@ -33,3 +33,16 @@ lineage_catalog/source-internal/Facebook/DIF_us_facebook_ads_metrics.json   line
 lineage_catalog/source-internal/PiwikPro/DIF_us_piwik_pro.json              lineage_catalog/source-internal/PiwikPro/DIF_dk_piwik_pro.json
 lineage_catalog/source-internal/Optimizely/DIF_ca_optimizely_decisions.json lineage_catalog/source-internal/Optimizely/DIF_dk_optimizely_decisions.json
 lineage_catalog/source-internal/LandingPages/DIF_us_landing_pages.json      lineage_catalog/source-internal/LandingPages/DIF_dk_landing_pages.json
+
+data_catalog/source-internal/Facebook/facebook_ad_insights___act_CANADA.json                            data_catalog/source-internal/Facebook/facebook_ad_insights___act_317401920304030.json
+data_catalog/source-internal/PiwikPro/piwik_us_daily_events___449b5606_9454_42c8_a2f6_d5ee40018e51.json data_catalog/source-internal/PiwikPro/piwik_dk_daily_events___66257fc2_8dc5_4053_9b90_ad5404f024f5.json
+data_catalog/source-internal/Optimizely/optimizely_ca_decisions.json                                    data_catalog/source-internal/Optimizely/optimizely_dk_decisions.json
+data_catalog/source-internal/LandingPages/lgf_us_landing_pages___sonova_lgf_us_landing_pages.json       data_catalog/source-internal/LandingPages/lgf_dk_landing_pages___sonova_lgf_dk_landing_pages.json
+
+lineage_catalog/source-internal/Poland_modeled/DIF_pl_facebook_ads_metrics.json lineage_catalog/source-internal/Denmark_modeled/DIF_dk_facebook_ads_metrics.json
+lineage_catalog/source-internal/Poland_modeled/DIF_pl_piwik_pro.json            lineage_catalog/source-internal/Denmark_modeled/DIF_dk_piwik_pro.json
+
+data_catalog/modeled/Poland_modeled/pl_facebook_ads_metrics.json data_catalog/modeled/Denmark_modeled/dk_facebook_ads_metrics.json
+data_catalog/modeled/Poland_modeled/pl_piwik_pro.json            data_catalog/modeled/Denmark_modeled/dk_piwik_pro.json
+data_catalog/modeled/Canada_modeled/ca_optimizely_decisions.json data_catalog/modeled/Denmark_modeled/dk_optimizely_decisions.json
+data_catalog/modeled/Poland_modeled/pl_landing_pages.json        data_catalog/modeled/Denmark_modeled/dk_landing_pages.json
