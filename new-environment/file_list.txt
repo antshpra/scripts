@@ -53,3 +53,33 @@ data_catalog/modeled/Canada_modeled/ca_optimizely_decisions.json data_catalog/mo
 data_catalog/modeled/Poland_modeled/pl_landing_pages.json        data_catalog/modeled/Denmark_modeled/dk_landing_pages.json
 
 
+
+transformation_catalog/raw/Google/DIF_ad_group_ad___CANADA.sql                                             transformation_catalog/raw/Google/DIF_ad_group_ad___DENMARK.sql
+transformation_catalog/raw/Facebook/DIF_facebook_ad_insights___act_CANADA.sql                              transformation_catalog/raw/Facebook/DIF_facebook_ad_insights___act_317401920304030.sql
+transformation_catalog/raw/Taboola/DIF_taboola_ad_item_breakdown___CANADA.sql                              transformation_catalog/raw/Taboola/DIF_taboola_ad_item_breakdown___DENMARK.sql
+transformation_catalog/raw/Outbrain/DIF_outbrain_ad_level_promoted_content___CANADA.sql                    transformation_catalog/raw/Outbrain/DIF_outbrain_ad_level_promoted_content___DENMARK.sql
+transformation_catalog/raw/PiwikPro/DIF_piwik_us_daily_events___449b5606_9454_42c8_a2f6_d5ee40018e51.sql   transformation_catalog/raw/PiwikPro/DIF_piwik_dk_daily_events___66257fc2_8dc5_4053_9b90_ad5404f024f5.sql
+transformation_catalog/raw/PiwikPro/DIF_piwik_us_daily_sessions___449b5606_9454_42c8_a2f6_d5ee40018e51.sql transformation_catalog/raw/PiwikPro/DIF_piwik_dk_daily_sessions___66257fc2_8dc5_4053_9b90_ad5404f024f5.sql
+transformation_catalog/raw/Criteo/DIF_criteo_ad_group_statistics_report___74184.sql                        transformation_catalog/raw/Criteo/DIF_criteo_ad_group_statistics_report___DENMARK.sql
+transformation_catalog/raw/Optimizely/DIF_optimizely_ca_decisions.sql                                      transformation_catalog/raw/Optimizely/DIF_optimizely_dk_decisions.sql
+transformation_catalog/raw/LandingPages/DIF_lgf_us_landing_pages___sonova_lgf_us_landing_pages.sql         transformation_catalog/raw/LandingPages/DIF_lgf_dk_landing_pages___sonova_lgf_dk_landing_pages.sql
+
+
+
+transformation_catalog/source-internal/Google/DIF_us_google_ads_metrics.sql     transformation_catalog/source-internal/Google/DIF_dk_google_ads_metrics.sql
+transformation_catalog/source-internal/Facebook/DIF_us_facebook_ads_metrics.sql transformation_catalog/source-internal/Facebook/DIF_dk_facebook_ads_metrics.sql
+transformation_catalog/source-internal/Taboola/DIF_us_taboola_ads_metrics.sql   transformation_catalog/source-internal/Taboola/DIF_dk_taboola_ads_metrics.sql
+transformation_catalog/source-internal/Outbrain/DIF_us_outbrain_ads_metrics.sql transformation_catalog/source-internal/Outbrain/DIF_dk_outbrain_ads_metrics.sql
+transformation_catalog/source-internal/PiwikPro/DIF_us_piwik_pro.sql            transformation_catalog/source-internal/PiwikPro/DIF_dk_piwik_pro.sql
+transformation_catalog/source-internal/Criteo/DIF_de_criteo_ads_metrics.sql     transformation_catalog/source-internal/Criteo/DIF_dk_criteo_ads_metrics.sql
+transformation_catalog/source-internal/Zemanta/DIF_de_zemanta_ads_metrics.sql   transformation_catalog/source-internal/Zemanta/DIF_dk_zemanta_ads_metrics.sql
+transformation_catalog/source-internal/LandingPages/DIF_us_landing_pages.sql    transformation_catalog/source-internal/LandingPages/DIF_dk_landing_pages.sql
+transformation_catalog/source-internal/CasterLeads/DIF_us_caster_leads.sql      transformation_catalog/source-internal/CasterLeads/DIF_dk_caster_leads.sql
+
+
+
+transformation_catalog/source-internal/Poland_modeled/DIF_pl_google_ads_metrics.sql   transformation_catalog/source-internal/Denmark_modeled/DIF_dk_google_ads_metrics.sql
+transformation_catalog/source-internal/Poland_modeled/DIF_pl_facebook_ads_metrics.sql transformation_catalog/source-internal/Denmark_modeled/DIF_dk_facebook_ads_metrics.sql
+transformation_catalog/source-internal/Poland_modeled/DIF_pl_outbrain_ads_metrics.sql transformation_catalog/source-internal/Denmark_modeled/DIF_dk_outbrain_ads_metrics.sql
+transformation_catalog/source-internal/Poland_modeled/DIF_pl_piwik_pro.sql            transformation_catalog/source-internal/Denmark_modeled/DIF_dk_piwik_pro.sql
+transformation_catalog/source-internal/Canada_modeled/DIF_ca_optimizely_decisions.sql transformation_catalog/source-internal/Denmark_modeled/DIF_dk_optimizely_decisions.sql
